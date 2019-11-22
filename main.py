@@ -6,6 +6,7 @@ log = Logger()
 
 def main():
     print (log.read("filename.txt"))
+    
 
 
 if __name__ == "__main__":
