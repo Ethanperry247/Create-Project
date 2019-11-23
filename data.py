@@ -11,7 +11,10 @@ class FlameSensor():
     
     def flame_detected(self):
         if (GPIO.input(self.channel)):
-            return "FLAME DETECTED"
+            print ("FLAME DETECTED")
+            return True
+        else:
+            return False
 
     def get_channel(self):
         return self.channel
