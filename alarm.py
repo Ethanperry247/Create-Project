@@ -2,8 +2,6 @@ import winsound
 
 class Alarm():
 
-    def check_status(self):
-        pass
-
     def sound_alarm(self):
-        pass
+        winsound.Beep(880, 400)
+        winsound.Beep(705, 400)
