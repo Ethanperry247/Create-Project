@@ -1,3 +1,5 @@
+# Seperate visualizer program added. This is now just for reference, not usable.
+
 import pygame
 from pygame.locals import *
 
