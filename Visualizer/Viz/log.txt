@@ -1,0 +1,37 @@
+2019-11-23 | 05:06:05 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:06 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:07 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:08 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:09 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:10 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:11 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:12 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:13 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:14 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:15 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:16 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:17 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:18 | Normal operation, no fires detected. | Fire Status: False
+2019-11-23 | 05:06:20 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:21 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:21 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:22 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:23 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:24 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:25 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:26 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:26 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:27 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:28 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:29 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:30 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:30 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:31 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:32 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:33 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:34 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:34 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:35 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:36 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:37 | Alert! Fire detected. | Fire Status: True
+2019-11-23 | 05:06:38 | Alert! Fire detected. | Fire Status: True
