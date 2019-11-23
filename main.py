@@ -25,18 +25,21 @@ def main():
 
     while True:
         # To be filled with message.receive().
+        # pi_data = message.receive()[0]
+        # id_number = message.receive()[1]
+        id_number = 1
         pi_data = 0x00
 
         temp+=1
 
         if (pi_data == 0x00 and temp < 15):
-            log.write("Normal operation, no fires detected.", file, "False")
+            log.write("Normal operation, no fires detected.", file, id_number, "False")
             time.sleep(1)
         elif (pi_data == 0x01 or temp >= 15):
             alarm.sound_alarm()
-            log.write("Alert! Fire detected.", file, "True")
+            log.write("Alert! Fire detected.", file, id_number, "True")
         else:
-            log.write("Error. Module not operational.", file, "Error")
+            log.write("Error. Module not operational.", file, id_number, "Error")
             time.sleep(1)
 
     time.sleep(1)

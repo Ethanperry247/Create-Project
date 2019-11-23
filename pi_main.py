@@ -21,12 +21,12 @@ def main():
         if (sensor.flame_detected()):
 
             # Sends a "true" signal over to the master node.
-            sender.send(0x01)
+            sender.send([0x01, sender.get_id_number()])
             # Signals local alarm (LED Flash).
             alarm.signal_alarm()
         else:
             # Affirms to the master node that no flame has been detected.
-            sender.send(0x00)
+            sender.send([0x00, sender.get_id_number()])
 
 
 if __name__ == "__main__":

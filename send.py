@@ -4,7 +4,8 @@ from digi.xbee.exception import *
 
 class Transceiver:
 
-    def __init__(self, port, local_baud, remote_address):
+    def __init__(self, port, local_baud, remote_address, id_number):
+        self.id_number = id_number;
         self.local_xbee = Raw802Device(port, local_baud)
         self.remote_device = RemoteXBeeDevice(local_xbee, XBee64BitAddress.from_hex_string
                                                     (remote_address))
@@ -25,3 +26,6 @@ class Transceiver:
             if xbee_message:
                 return xbee_message()
         local_xbee.close()
+        
+    def get_id_number(self):
+        return self.id_number

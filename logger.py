@@ -6,9 +6,9 @@ from os import path
 
 class Logger:
 
-    def write(self, data, filename, status):
+    def write(self, data, filename, id_number, status):
         file = open(filename,"a")
-        message = strftime("%Y-%m-%d", gmtime()) + " | " + strftime("%H:%M:%S", gmtime()) + " | " + data + " | Fire Status: " + status
+        message = strftime("%Y-%m-%d", gmtime()) + " | " + strftime("%H:%M:%S", gmtime()) + " | Message: " + data + " | Node ID: " + str(id_number) + " | Fire Status: " + status
         file.write(message + "\n")
         file.close()
 
