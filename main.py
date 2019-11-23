@@ -1,24 +1,43 @@
 from logger import Logger
 from send import Transceiver
-from visualize import *
+# from visualize import *
 from alarm import *
 import time
 
+# Creates a logger object to read, write, etc.
 log = Logger()
-message = Transceiver()
+
+# Creates a transceiver so that data may be received from the nodes.
+# message = Transceiver()
+
+# Prepares an alarm to be sounded if need be.
 alarm = Alarm()
 
 def main():
-    while True:
-        pi_data = message.receive()
 
-        if (pi_data == 0x00):
-            log.write("Normal operation, no fires detected.", "log.txt", False)
-        elif (pi_data == 0x01):
+    file = "./CSCI 101/Create_Project/Create_Project/Visualizer/Viz/log.txt"
+
+
+    # Clears any previously created file.
+    log.erase(file)
+
+    temp = 0
+
+    while True:
+        # To be filled with message.receive().
+        pi_data = 0x00
+
+        temp+=1
+
+        if (pi_data == 0x00 and temp < 15):
+            log.write("Normal operation, no fires detected.", file, "False")
+            time.sleep(1)
+        elif (pi_data == 0x01 or temp >= 15):
             alarm.sound_alarm()
-            log.write("Alert! Fire detected.", "log.txt", True)
+            log.write("Alert! Fire detected.", file, "True")
         else:
-            log.write("Error. Module not operational.", "log.txt", "Error")
+            log.write("Error. Module not operational.", file, "Error")
+            time.sleep(1)
 
     time.sleep(1)
 
