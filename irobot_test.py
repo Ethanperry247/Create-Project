@@ -29,17 +29,17 @@ def move(distance, speed):
         temp3 = temp3 + 0x01
         low_byte = 255
         high_byte = int(temp3)
-        print(hex(low_byte))
-        print(hex(high_byte))
+        # print(hex(low_byte))
+        # print(hex(high_byte))
     
     array.append(start_code)
     array.append(low_byte)
     array.append(high_byte)
     array.append(low_byte)
     array.append(high_byte)
-    print(array)
+    # print(array)
     ser.write(array)
-    print (seconds)
+    # print (seconds)
     time.sleep(seconds)
     ser.write(b'\x89\x00\x00\x00\x00')
 
@@ -60,25 +60,26 @@ def turn(left_right):
     time.sleep(1.1)
     ser.write(b'\x89\x00\x00\x00\x00')
 
-ser = serial.Serial(port='COM6', baudrate=57600)
+ser = serial.Serial(port='/dev/ttyUSB0', baudrate=57600)
 print("Serial Port Name:", ser.name)
 print("Baudrate:", ser.baudrate)
 safe_start()
 
-check = 0
-while (check != 5):
-    print("Enter a command: (1=forward, 2=backward, 3=turn left, 4=turn_right, 5=exit to key commands")
-    check = int(input())
-    if (check == 1):
-        move(200,200)
-    elif (check == 2):
-        move(-200,200)
-    elif (check == 3):
-        turn(True)
-    elif (check == 4):
-        turn(False)
-    else:
-        break
+# If desired, one may use keyboard commands as oppsed to key controls using the following block of code: 
+# check = 0
+# while (check != 5):
+#     print("Enter a command: (1=forward, 2=backward, 3=turn left, 4=turn_right, 5=exit to key commands")
+#     check = int(input())
+#     if (check == 1):
+#         move(200,200)
+#     elif (check == 2):
+#         move(-200,200)
+#     elif (check == 3):
+#         turn(True)
+#     elif (check == 4):
+#         turn(False)
+#     else:
+#         break
 
 print ("Use Key Controls (WASD) to move and E to exit.")
 while (True):
