@@ -3,6 +3,7 @@ from send import Transceiver
 # from visualize import *
 from alarm import *
 import time
+from irobot_test import *
 
 # Creates a logger object to read, write, etc.
 log = Logger()
@@ -12,6 +13,8 @@ message = Transceiver("COM7", 125000, "0013A200419B5625", 0)
 
 # Prepares an alarm to be sounded if need be.
 alarm = Alarm()
+
+robot = RobotMessenger()
 
 def main():
 
@@ -38,6 +41,8 @@ def main():
         else:
             log.write("Error. Module not operational.", file, id_number, "Error")
             time.sleep(1)
+
+        message.send(robot.run())
 
     time.sleep(1)
 

@@ -24,8 +24,14 @@ class Transceiver:
         while True:
             xbee_message = local_xbee.read_data()
             if xbee_message:
-                return xbee_message()
+                local_xbee.close()
+                return xbee_message
+
+    def receive_robot_code(self):
+        local_xbee.open()
+        xbee_message = local_xbee.read_data()
         local_xbee.close()
+        return xbee_message
         
     def get_id_number(self):
         return self.id_number
