@@ -10,7 +10,7 @@ from AudioTransceiver import *
 log = Logger()
 
 # Creates a transceiver so that data may be received from the nodes.
-radio = Radio("BBBB")
+radio = Radio("BBBB", "COM7")
 
 # Prepares an alarm to be sounded if need be.
 alarm = Alarm()

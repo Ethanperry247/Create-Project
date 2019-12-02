@@ -1,18 +1,18 @@
 import wave
 import argparse
-import pyaudio
-import scipy
-from digi.xbee.devices import *
-from digi.xbee.util import *
-from digi.xbee.exception import *
+# import pyaudio
+# import scipy
+# from digi.xbee.devices import *
+# from digi.xbee.util import *
+# from digi.xbee.exception import *
 
 from XbeeModule import Xbee
 
 
 class Radio():
 
-    def __init__(self, addr):
-        self.xbee = Xbee("COM7", 250000, addr, False, False)
+    def __init__(self, addr, port):
+        self.xbee = Xbee(port, 250000, addr, False, False)
 
     def read(self):
         message = self.xbee.transparentRead(packetSize=1)
