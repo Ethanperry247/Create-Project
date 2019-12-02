@@ -31,8 +31,7 @@ def main():
         # id_number = message.receive()[1]
         id_number = 1
         pi_data = radio.read()
-        print (pi_data)
-        print ("Running")
+        print ("Running. Data Received:", pi_data)
         # pi_data = 0x00
 
         if (pi_data == b'N'):
