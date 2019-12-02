@@ -40,7 +40,6 @@ def main():
         elif (pi_data == b'A'):
             alarm.sound_alarm()
             log.write("Alert! Fire detected.", file, id_number, "True")
-            print ("A")
         else:
             log.write("Error. Module not operational.", file, id_number, "Error")
             time.sleep(1)
