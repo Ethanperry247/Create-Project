@@ -60,7 +60,7 @@ def turn(left_right):
     time.sleep(1.1)
     ser.write(b'\x89\x00\x00\x00\x00')
 
-ser = serial.Serial(port='COM6', baudrate=57600)
+ser = serial.Serial(port='/dev/ttyUSB1', baudrate=57600)
 print("Serial Port Name:", ser.name)
 print("Baudrate:", ser.baudrate)
 safe_start()
