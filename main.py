@@ -4,12 +4,13 @@ from send import Transceiver
 from alarm import *
 import time
 from irobot_test import *
+from AudioTransceiver import *
 
 # Creates a logger object to read, write, etc.
 log = Logger()
 
 # Creates a transceiver so that data may be received from the nodes.
-message = Transceiver("COM7", 125000, "0013A200419B5625", 0)
+radio = Radio("BBBB")
 
 # Prepares an alarm to be sounded if need be.
 alarm = Alarm()
@@ -29,20 +30,23 @@ def main():
         # pi_data = message.receive()[0]
         # id_number = message.receive()[1]
         id_number = 1
-        pi_data = message.receive()
+        pi_data = radio.read()
+        print (pi_data)
+        print ("Running")
         # pi_data = 0x00
 
-        if (pi_data == 0x00):
+        if (pi_data == b'N'):
             log.write("Normal operation, no fires detected.", file, id_number, "False")
             time.sleep(1)
-        elif (pi_data == 0x01):
+        elif (pi_data == b'A'):
             alarm.sound_alarm()
             log.write("Alert! Fire detected.", file, id_number, "True")
+            print ("A")
         else:
             log.write("Error. Module not operational.", file, id_number, "Error")
             time.sleep(1)
 
-        message.send(robot.run())
+        # message.send(robot.run())
 
     time.sleep(1)
 

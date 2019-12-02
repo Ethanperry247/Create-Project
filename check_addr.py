@@ -1,11 +1,9 @@
-from digi.xbee.devices import *
-from digi.xbee.util import *
-from digi.xbee.exception import *
+from AudioTransceiver import *
 
-xbee = Raw802Device('COM7', 9600)
+radio = Radio()
 
-remote_device = RemoteXBeeDevice(xbee, XBee64BitAddress.from_hex_string("0013A200419B5611"))
+radio.write(b'hello', "AAAA")
 
-print (xbee.get_64bit_addr)
-
-xbee.open()
+while True:
+    radio.read()
+    print(radio.read())

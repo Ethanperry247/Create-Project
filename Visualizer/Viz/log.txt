@@ -1,70 +1,87 @@
-2019-11-23 | 05:52:56 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:52:57 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:52:58 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:52:59 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:00 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:01 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:02 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:03 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:04 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:05 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:06 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:07 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:08 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:09 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:53:10 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:11 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:12 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:13 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:14 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:14 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:15 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:16 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:17 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:18 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:18 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:19 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:20 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:21 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:22 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:23 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:23 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:24 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:25 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:26 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:27 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:27 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:28 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:29 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:30 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:31 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:31 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:32 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:33 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:34 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:35 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:35 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:36 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:37 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:38 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:39 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:39 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:40 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:41 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:42 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:43 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:43 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:44 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:45 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:46 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:47 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:47 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:48 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:49 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:50 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:51 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:52 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:52 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:53 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:54 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:53:55 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-12-02 | 16:21:19 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:22 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:25 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:28 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-12-02 | 16:21:30 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:33 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:36 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:39 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:42 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:45 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:49 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:51 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-12-02 | 16:21:53 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:56 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:21:59 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:02 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:05 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:08 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:11 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:14 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:17 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:20 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:23 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:26 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:29 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:32 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:35 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:38 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:41 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:44 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:47 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:50 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:53 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:22:57 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:00 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:03 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:06 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:09 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:12 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:15 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:18 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:21 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:24 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:27 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:30 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:33 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:36 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:39 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:42 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:45 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:48 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:51 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:54 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:23:57 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:00 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:03 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:06 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:09 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:12 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:15 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:18 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:21 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:24 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:27 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:30 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:33 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:36 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:39 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:42 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:45 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:48 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:51 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:54 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:24:57 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:00 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:03 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:06 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:09 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:12 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:15 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:18 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:21 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:24 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:27 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:30 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:33 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
+2019-12-02 | 16:25:36 | Message: Error. Module not operational. | Node ID: 1 | Fire Status: Error
