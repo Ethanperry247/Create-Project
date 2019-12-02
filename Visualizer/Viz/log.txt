@@ -1,29 +1,70 @@
-2019-11-23 | 05:30:40 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:41 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:42 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:43 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:44 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:45 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:46 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:47 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:48 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:49 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:50 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:51 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:52 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:53 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
-2019-11-23 | 05:30:55 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:30:56 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:30:56 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:30:57 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:30:58 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:30:59 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:00 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:00 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:01 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:02 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:03 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:04 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:04 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:05 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
-2019-11-23 | 05:31:06 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:52:56 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:52:57 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:52:58 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:52:59 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:00 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:01 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:02 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:03 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:04 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:05 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:06 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:07 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:08 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:09 | Message: Normal operation, no fires detected. | Node ID: 1 | Fire Status: False
+2019-11-23 | 05:53:10 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:11 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:12 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:13 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:14 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:14 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:15 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:16 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:17 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:18 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:18 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:19 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:20 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:21 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:22 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:23 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:23 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:24 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:25 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:26 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:27 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:27 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:28 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:29 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:30 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:31 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:31 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:32 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:33 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:34 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:35 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:35 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:36 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:37 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:38 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:39 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:39 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:40 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:41 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:42 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:43 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:43 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:44 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:45 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:46 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:47 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:47 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:48 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:49 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:50 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:51 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:52 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:52 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:53 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:54 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True
+2019-11-23 | 05:53:55 | Message: Alert! Fire detected. | Node ID: 1 | Fire Status: True

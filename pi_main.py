@@ -9,7 +9,7 @@ from data import *
 alarm = LEDAlarm(13)
 
 # Transceiver to send data over to the master node.
-sender = Transceiver()
+sender = Transceiver("/dev/ttyUSB0", 125000, "0013A200419B5611", 1)
 
 # Sensor to detect flame.
 sensor = FlameSensor(7)

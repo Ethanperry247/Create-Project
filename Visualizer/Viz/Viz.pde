@@ -6,7 +6,8 @@ BufferedReader reader;
 String line;
 
 void setup() {
- size(800, 600, P3D);
+ // size(800, 600, P3D);
+ fullScreen(P3D);
  background(30);
  
  cam = new PeasyCam(this, width/2, height/2, 0, 200);
@@ -18,6 +19,7 @@ void setup() {
 
 
 boolean checkStatus = false;
+int nodeID = -1;
 
 void draw() {
   background(30);
@@ -28,7 +30,10 @@ void draw() {
           checkStatus = false;
         } else if (line.substring(line.length()-5).equals("Error")) {
           checkStatus = false;
-        } else checkStatus = true;
+        } else { 
+          nodeID = int(line.substring(line.length()-21,line.length()-20));
+          checkStatus = true; 
+        }
       }
   }
   catch (IOException e) {
@@ -52,21 +57,63 @@ void draw() {
       if (second()%2==0) col = color(255,0,0);
       else col = color(255);
     
-      box(roomX, roomY, roomZ);
-      translate(-roomX/2+nodeSize/2, -roomY/2+nodeSize/2, -roomZ/2+nodeSize/2);
-      fill(col);
-      noStroke();
-      box(nodeSize);
+      if (nodeID == 0) {
       
-      translate(roomX-nodeSize, 0, 0);
-      fill(col);
-      noStroke();
-      box(nodeSize);
+        box(roomX, roomY, roomZ);
+        translate(-roomX/2+nodeSize/2, -roomY/2+nodeSize/2, -roomZ/2+nodeSize/2);
+        fill(col);
+        noStroke();
+        box(nodeSize);
+        
+        translate(roomX-nodeSize, 0, 0);
+        fill(255);
+        noStroke();
+        box(nodeSize);
       
-      translate(0, 0, roomZ-nodeSize);
-      fill(col);
-      noStroke();
-      box(nodeSize);
+        translate(0, 0, roomZ-nodeSize);
+        fill(255);
+        noStroke();
+        box(nodeSize);
+      
+      } else if (nodeID == 1) {
+        
+        box(roomX, roomY, roomZ);
+        translate(-roomX/2+nodeSize/2, -roomY/2+nodeSize/2, -roomZ/2+nodeSize/2);
+        fill(255);
+        noStroke();
+        box(nodeSize);
+        
+        translate(roomX-nodeSize, 0, 0);
+        fill(col);
+        noStroke();
+        box(nodeSize);
+      
+        translate(0, 0, roomZ-nodeSize);
+        fill(255);
+        noStroke();
+        box(nodeSize);
+        
+      } else {
+        
+        box(roomX, roomY, roomZ);
+        translate(-roomX/2+nodeSize/2, -roomY/2+nodeSize/2, -roomZ/2+nodeSize/2);
+        fill(255);
+        noStroke();
+        box(nodeSize);
+        
+        translate(roomX-nodeSize, 0, 0);
+        fill(255);
+        noStroke();
+        box(nodeSize);
+      
+        translate(0, 0, roomZ-nodeSize);
+        fill(col);
+        noStroke();
+        box(nodeSize);
+        
+      }
+      
+      
   
   } else {
       color col = color(255);
