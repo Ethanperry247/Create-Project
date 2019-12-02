@@ -1,4 +1,4 @@
-# import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 
 # Flame, Gas, and Carbon Monoxide (and other) Sensors.
