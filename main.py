@@ -44,7 +44,8 @@ def main():
             log.write("Error. Module not operational.", file, id_number, "Error")
             time.sleep(1)
 
-        # message.send(robot.run())
+        # if (robot.run() is not None):
+        #     radio.write(robot.run())
 
     time.sleep(1)
 
