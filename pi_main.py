@@ -3,7 +3,7 @@ from logger import Logger
 # from alarm import *
 from light_alarm import *
 from data import *
-# from irobot_test import *
+from irobot_test import *
 from AudioTransceiver import *
 import time
 
@@ -18,7 +18,7 @@ sender = Radio("AAAA", "/dev/ttyUSB0")
 sensor = FlameSensor(7)
 
 #Starts up the robot.
-# robot = Robot("COM3")
+robot = Robot("/dev/ttyUSB1")
 
 def main():
     # Loop until closing.
@@ -36,6 +36,9 @@ def main():
             time.sleep(1)
         # if (sender.receive_robot_code() is not None):
             # robot.run(sender.receive_robot_code())
+
+        # if (sender.read() != b''):
+            # robot.run(sender.read())
 
 
 if __name__ == "__main__":
