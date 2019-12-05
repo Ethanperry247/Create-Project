@@ -36,16 +36,32 @@ def main():
 
         if (pi_data == b'N'):
             log.write("Normal operation, no fires detected.", file, id_number, "False")
-            time.sleep(1)
+            time.sleep(0.5)
         elif (pi_data == b'A'):
             alarm.sound_alarm()
             log.write("Alert! Fire detected.", file, id_number, "True")
         else:
             log.write("Error. Module not operational.", file, id_number, "Error")
-            time.sleep(1)
+            time.sleep(0.5)
 
-        # if (robot.run() is not None):
-        #     radio.write(robot.run())
+        robot_state = robot.run()
+
+        if (robot_state is not None):
+            print (robot_state)
+            if (robot_state == 2):
+                radio.write(b'W', "AAAA")
+            elif (robot_state == 3):
+                radio.write(b'S', "AAAA")
+            elif (robot_state == 4):
+                radio.write(b'A', "AAAA")
+            elif (robot_state == 5):
+                radio.write(b'D', "AAAA")
+            else:
+                radio.write(b'F', "AAAA")
+                print ("Incorrect Key Command")
+        else:
+            radio.write(b'F',"AAAA")
+            print ("called")
 
     time.sleep(1)
 
