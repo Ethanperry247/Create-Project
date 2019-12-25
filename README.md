@@ -13,4 +13,7 @@
 **Notes:** This is not yet a fully functioning system, but na abstraction of a possibly larger system. The network can currently support a maximum of six nodes and one master. Though this could theoretically cover the entirety of one room, the dream of this project is to create a mesh network of thermal nodes spanning the entirety of buildings. Nonetheless, the thermal node network demonstrates the possibility of a technology such as that.
 
 **Module/Class Structure Diagram:**
-![Module/Class Structure](https://github.com/Ethanperry247/Create_Project/blob/master/Assets/Create%20Project%20Stack%20(1).png)
+![Module/Class Structure](https://github.com/Ethanperry247/Create_Project/blob/master/Assets/Module%20Structure%20(1).png)
+
+**Project Hardware Diagram:**
+![Project Hardware](https://github.com/Ethanperry247/Create_Project/blob/master/Assets/Create%20Project%20Stack%20(1).png)
