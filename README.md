@@ -10,7 +10,7 @@
 
 **Operation Instructions:** Raspberry pi nodes are required for the operation of this program. They may have any number of sensors, but they must have at least one sensor in order to fire off an alarm signal. Each raspberry pi must have an xbee 802.15.4 radio model S1 or higher. Additionally, a IRobot Create TM Robot must be connected to a node in order to use that functionality of the program. Pi_Main.py should be launched on any subsidiary nodes, and Main.py should be launched on the master node. Additionally, the visualizer must be launched on the master node in order to see the 3D visualization. 
 
-**Notes:** This is not yet a fully functioning system, but na abstraction of a possibly larger system. The network can currently support a maximum of six nodes and one master. Though this could theoretically cover the entirety of one room, the dream of this project is to create a mesh network of thermal nodes spanning the entirety of buildings. Nonetheless, the thermal node network demonstrates the possibility of a technology such as that.
+**Notes:** This is not yet a fully functioning system, but an abstraction of a possibly larger system. The network can currently support a maximum of six nodes and one master. Though this could theoretically cover the entirety of one room, the dream of this project is to create a mesh network of thermal nodes spanning the entirety of buildings. Nonetheless, the thermal node network demonstrates the possibility of a technology such as that.
 
 **Module/Class Structure Diagram:**
 ![Module/Class Structure](https://github.com/Ethanperry247/Create_Project/blob/master/Assets/Module%20Structure%20(1).png)
