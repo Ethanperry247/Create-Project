@@ -1,4 +1,4 @@
-# Create_Project
+# Create-Project
 
 **Title:** Thermal Node Network
 
